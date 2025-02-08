@@ -25,21 +25,25 @@ Git (for version control)
 Installation
 
 1. Clone the Repository
+   
    git clone https://github.com/Holycr0w/sentiment-analysis-api.git
    
    cd sentiment-analysis-api
 
 3. Set Up a Virtual Environment (Recommended)
+   
    python -m venv venv
    
    venv\Scripts\activate
 
    For macOS/Linux:
+   
    python3 -m venv venv
    
    source venv/bin/activate
 
 5. Install Required Dependencies
+   
    pip install --upgrade pip
    
    pip install -r requirements.txt
@@ -48,6 +52,6 @@ Installation
 Running the Application
 
 1. Run the Flask App
-2. 
+   
    python app.py
    
